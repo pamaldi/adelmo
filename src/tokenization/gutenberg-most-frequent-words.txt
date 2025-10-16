@@ -1,0 +1,1005 @@
+Most Frequent Words:
+
+
+
+
+   1. the                  12435379
+  2. and                  6918453
+  3. that                 2873644
+  4. was                  2474627
+  5. his                  2054600
+  6. you                  1820246
+  7. with                 1737324
+  8. for                  1633030
+  9. had                  1570390
+ 10. not                  1432902
+ 11. but                  1351579
+ 12. her                  1289943
+ 13. have                 1114414
+ 14. she                  1112617
+ 15. him                  985490
+ 16. they                 971463
+ 17. which                955127
+ 18. this                 925908
+ 19. all                  889661
+ 20. from                 852424
+ 21. said                 774466
+ 22. were                 763563
+ 23. there                710423
+ 24. one                  697469
+ 25. are                  662018
+ 26. would                649521
+ 27. their                614554
+ 28. been                 586167
+ 29. when                 585203
+ 30. them                 576693
+ 31. what                 569993
+ 32. who                  545267
+ 33. will                 523695
+ 34. out                  485032
+ 35. more                 447165
+ 36. could                436249
+ 37. then                 435112
+ 38. man                  428310
+ 39. now                  413716
+ 40. your                 413355
+ 41. very                 404170
+ 42. some                 395174
+ 43. into                 394899
+ 44. can                  361909
+ 45. has                  359739
+ 46. did                  358218
+ 47. little               349937
+ 48. than                 347473
+ 49. about                338588
+ 50. like                 336018
+ 51. upon                 333508
+ 52. time                 333321
+ 53. any                  328604
+ 54. our                  314539
+ 55. only                 307267
+ 56. other                305891
+ 57. should               299964
+ 58. see                  299573
+ 59. know                 292583
+ 60. before               277973
+ 61. down                 277408
+ 62. well                 276533
+ 63. such                 274281
+ 64. much                 272354
+ 65. its                  269144
+ 66. two                  267068
+ 67. must                 262599
+ 68. these                262540
+ 69. made                 261017
+ 70. may                  260600
+ 71. after                260589
+ 72. great                259772
+ 73. come                 250114
+ 74. over                 249557
+ 75. good                 247889
+ 76. here                 245192
+ 77. how                  242583
+ 78. old                  239864
+ 79. never                238695
+ 80. own                  230742
+ 81. think                229300
+ 82. men                  229227
+ 83. say                  229083
+ 84. first                227351
+ 85. where                221981
+ 86. way                  220798
+ 87. came                 216803
+ 88. himself              215986
+ 89. might                214763
+ 90. again                209121
+ 91. those                199887
+ 92. too                  199398
+ 93. back                 198699
+ 94. day                  192943
+ 95. long                 190389
+ 96. even                 190302
+ 97. shall                187731
+ 98. make                 187277
+ 99. most                 186006
+100. life                 185252
+101. being                180316
+102. through              177891
+103. still                177627
+104. away                 176773
+105. thought              176393
+106. yet                  173956
+107. though               173381
+108. went                 171474
+109. last                 170508
+110. without              170385
+111. just                 169411
+112. while                169405
+113. take                 165698
+114. many                 164041
+115. nothing              160648
+116. hand                 156791
+117. every                156067
+118. young                155586
+119. eyes                 155046
+120. once                 152139
+121. off                  149520
+122. sir                  148337
+123. get                  148270
+124. let                  144873
+125. people               143743
+126. place                143384
+127. ever                 143015
+128. face                 142829
+129. found                142777
+130. same                 142471
+131. another              140960
+132. under                137749
+133. tell                 136597
+134. house                136033
+135. things               134651
+136. father               131546
+137. head                 131211
+138. look                 130170
+139. right                129692
+140. left                 128534
+141. mind                 127010
+142. got                  126805
+143. thing                125613
+144. why                  125582
+145. saw                  125555
+146. looked               125411
+147. put                  122506
+148. three                121635
+149. give                 121597
+150. always               121473
+151. world                121404
+152. seemed               120730
+153. lady                 119286
+154. far                  118908
+155. night                118197
+156. new                  117819
+157. against              117627
+158. something            116652
+159. better               116472
+160. done                 116285
+161. going                116038
+162. took                 115286
+163. quite                114293
+164. because              113855
+165. moment               113513
+166. asked                112412
+167. work                 110595
+168. few                  109954
+169. heard                109710
+170. knew                 108014
+171. between              107580
+172. enough               107499
+173. told                 107044
+174. find                 106673
+175. love                 106226
+176. years                105859
+177. god                  105217
+178. part                 104934
+179. course               104819
+180. each                 104502
+181. seen                 103231
+182. side                 103036
+183. heart                100795
+184. also                 100634
+185. among                 99212
+186. miss                  98544
+187. both                  98521
+188. whole                 98214
+189. having                98043
+190. perhaps               97420
+191. woman                 97234
+192. mother                96996
+193. whom                  96576
+194. round                 96294
+195. poor                  95866
+196. lord                  95405
+197. however               95175
+198. almost                94764
+199. home                  93639
+200. want                  93140
+201. soon                  92200
+202. hands                 92073
+203. does                  91918
+204. room                  91662
+205. indeed                90689
+206. yes                   90091
+207. name                  88861
+208. door                  88254
+209. nor                   88094
+210. myself                88012
+211. king                  86734
+212. end                   86463
+213. rather                86063
+214. called                86042
+215. turned                85948
+216. country               85133
+217. till                  84814
+218. dear                  84605
+219. days                  84503
+220. since                 84321
+221. felt                  84321
+222. friend                83996
+223. light                 83604
+224. best                  83594
+225. morning               83447
+226. anything              83255
+227. next                  82308
+228. matter                81959
+229. word                  81556
+230. words                 81101
+231. began                 80964
+232. set                   80872
+233. stood                 80114
+234. believe               79370
+235. gave                  79345
+236. voice                 78732
+237. brought               77644
+238. sure                  77021
+239. girl                  76324
+240. herself               76155
+241. small                 75524
+242. white                 75185
+243. water                 75113
+244. until                 75043
+245. taken                 74850
+246. half                  74662
+247. gone                  74451
+248. answered              74418
+249. true                  73973
+250. thus                  73494
+251. kind                  73378
+252. present               73335
+253. less                  73306
+254. together              72918
+255. keep                  71829
+256. others                70903
+257. captain               70711
+258. whose                 70621
+259. themselves            69986
+260. hope                  69622
+261. least                 69611
+262. full                  68504
+263. nature                68289
+264. certain               68147
+265. wife                  68085
+266. whether               67918
+267. looking               66552
+268. given                 66537
+269. hear                  66425
+270. general               65338
+271. along                 65298
+272. money                 65261
+273. passed                65260
+274. mean                  64898
+275. near                  64516
+276. case                  64445
+277. behind                64425
+278. boy                   64056
+279. leave                 64020
+280. death                 64017
+281. cried                 63919
+282. feet                  63768
+283. thou                  63624
+284. really                63442
+285. says                  63427
+286. fact                  63377
+287. sat                   63188
+288. speak                 62904
+289. air                   62742
+290. alone                 62522
+291. high                  61911
+292. open                  61682
+293. above                 61478
+294. power                 60684
+295. call                  60506
+296. lay                   59918
+297. large                 59707
+298. hour                  59601
+299. letter                59585
+300. often                 59308
+301. rest                  59139
+302. fire                  59088
+303. already               58939
+304. within                58888
+305. state                 58374
+306. coming                57979
+307. english               57889
+308. towards               57880
+309. friends               57752
+310. suppose               57705
+311. sort                  57575
+312. manner                57378
+313. doubt                 57213
+314. child                 57202
+315. point                 56989
+316. known                 56971
+317. feel                  56887
+318. wish                  56832
+319. black                 56478
+320. replied               56039
+321. itself                56038
+322. read                  55747
+323. therefore             55588
+324. times                 55510
+325. sent                  55502
+326. help                  55465
+327. son                   55377
+328. question              55146
+329. dead                  55021
+330. business              54770
+331. four                  54750
+332. children              54207
+333. means                 54176
+334. sea                   54165
+335. use                   53961
+336. either                53785
+337. hard                  53725
+338. lost                  53488
+339. truth                 53033
+340. dark                  52977
+341. hundred               52973
+342. order                 52788
+343. returned              52514
+344. talk                  52445
+345. used                  51909
+346. ask                   51450
+347. understand            51418
+348. care                  51376
+349. john                  51226
+350. several               51021
+351. town                  51007
+352. reason                50811
+353. short                 50805
+354. during                50379
+355. year                  50378
+356. england               50323
+357. body                  50322
+358. women                 50132
+359. kept                  50080
+360. strong                50002
+361. family                49981
+362. across                49836
+363. ground                49744
+364. possible              49627
+365. held                  49553
+366. answer                49362
+367. fell                  49250
+368. making                49156
+369. thy                   49129
+370. brother               48818
+371. chapter               48649
+372. else                  48624
+373. second                48458
+374. sense                 48405
+375. sometimes             48215
+376. evening               48161
+377. suddenly              48058
+378. fear                  48033
+379. land                  47868
+380. close                 47693
+381. person                47389
+382. rose                  47290
+383. seems                 47276
+384. spirit                47238
+385. become                46936
+386. turn                  46857
+387. ought                 46498
+388. strange               46435
+389. story                 46020
+390. live                  45937
+391. certainly             45835
+392. master                45832
+393. sight                 45813
+394. able                  45688
+395. return                45614
+396. five                  45598
+397. remember              45375
+398. hold                  45172
+399. show                  45141
+400. need                  45105
+401. idea                  45047
+402. human                 44927
+403. became                44635
+404. around                44313
+405. ready                 44223
+406. form                  44223
+407. everything            44164
+408. gentleman             44018
+409. beautiful             43885
+410. pretty                43798
+411. eye                   43785
+412. followed              43717
+413. different             43660
+414. war                   43555
+415. party                 43343
+416. feeling               43247
+417. spoke                 43097
+418. met                   43053
+419. soul                  43049
+420. bring                 43036
+421. earth                 42888
+422. table                 42674
+423. subject               42596
+424. bad                   42308
+425. none                  42304
+426. ten                   42162
+427. river                 41993
+428. appeared              41992
+429. arms                  41836
+430. seem                  41665
+431. beyond                41214
+432. city                  41159
+433. character             40915
+434. interest              40904
+435. fellow                40796
+436. london                40730
+437. forward               40707
+438. taking                40627
+439. run                   40450
+440. church                40413
+441. continued             40282
+442. thee                  40063
+443. deep                  39821
+444. horse                 39763
+445. red                   39682
+446. added                 39630
+447. stand                 39617
+448. doing                 39444
+449. happy                 39413
+450. thousand              39343
+451. sound                 39119
+452. husband               39080
+453. past                  39045
+454. low                   38948
+455. fine                  38897
+456. line                  38793
+457. common                38763
+458. mine                  38746
+459. road                  38682
+460. clear                 38625
+461. glad                  38555
+462. big                   38505
+463. late                  38342
+464. bed                   38187
+465. comes                 38059
+466. daughter              37976
+467. company               37931
+468. further               37906
+469. yourself              37844
+470. carried               37759
+471. book                  37708
+472. except                37680
+473. hours                 37619
+474. sun                   37492
+475. boys                  37481
+476. deal                  37442
+477. wanted                37106
+478. cold                  37102
+479. neither               36955
+480. wind                  36925
+481. change                36889
+482. street                36861
+483. art                   36848
+484. ship                  36796
+485. nearly                36767
+486. wild                  36765
+487. french                36682
+488. saying                36457
+489. received              36433
+490. number                36417
+491. view                  36376
+492. blood                 36314
+493. account               36309
+494. early                 36226
+495. longer                36177
+496. law                   36169
+497. although              36061
+498. position              35971
+499. reached               35909
+500. public                35879
+501. meet                  35806
+502. hardly                35800
+503. fair                  35693
+504. natural               35523
+505. ran                   35372
+506. age                   35325
+507. afraid                35305
+508. silence               35302
+509. force                 35137
+510. tried                 35116
+511. cut                   35069
+512. later                 35035
+513. chance                34982
+514. try                   34931
+515. free                  34923
+516. trouble               34804
+517. necessary             34713
+518. cause                 34678
+519. minutes               34571
+520. george                34514
+521. hair                  34489
+522. real                  34384
+523. pass                  34352
+524. uncle                 34339
+525. effect                34326
+526. miles                 34311
+527. probably              34238
+528. living                34201
+529. six                   34198
+530. led                   34170
+531. whatever              34091
+532. walked                34025
+533. prince                34011
+534. opened                33972
+535. fall                  33954
+536. bear                  33829
+537. doctor                33811
+538. window                33589
+539. heaven                33506
+540. arm                   33488
+541. sister                33252
+542. boat                  33167
+543. thinking              33084
+544. tom                   32751
+545. ago                   32616
+546. smile                 32546
+547. distance              32535
+548. pleasure              32524
+549. entered               32341
+550. slowly                32248
+551. green                 32247
+552. front                 32243
+553. standing              32004
+554. purpose               32002
+555. save                  31920
+556. getting               31829
+557. act                   31744
+558. laid                  31580
+559. wrong                 31517
+560. duty                  31256
+561. foot                  31109
+562. knowledge             31025
+563. wonder                30713
+564. play                  30634
+565. happened              30590
+566. length                30583
+567. walk                  30477
+568. struck                30456
+569. trees                 30441
+570. forth                 30430
+571. lived                 30267
+572. knows                 30257
+573. heavy                 30212
+574. sleep                 29956
+575. mary                  29952
+576. lips                  29898
+577. opinion               29866
+578. send                  29836
+579. instead               29831
+580. written               29826
+581. quiet                 29740
+582. broken                29707
+583. pay                   29614
+584. blue                  29468
+585. makes                 29373
+586. remained              29134
+587. following             29029
+588. besides               28835
+589. exclaimed             28835
+590. stopped               28785
+591. history               28758
+592. die                   28750
+593. gold                  28647
+594. stay                  28544
+595. beauty                28532
+596. write                 28466
+597. week                  28456
+598. died                  28420
+599. seeing                28410
+600. army                  28329
+601. service               28293
+602. court                 28270
+603. mouth                 28233
+604. drew                  28229
+605. below                 28084
+606. government            28073
+607. thoughts              27970
+608. easy                  27894
+609. figure                27839
+610. colonel               27772
+611. queen                 27747
+612. strength              27649
+613. object                27551
+614. wait                  27546
+615. chief                 27479
+616. silent                27473
+617. horses                27454
+618. mere                  27421
+619. letters               27398
+620. chair                 27365
+621. caught                27356
+622. dinner                27339
+623. impossible            27325
+624. paper                 27296
+625. please                27254
+626. presently             27249
+627. follow                27158
+628. laughed               27131
+629. note                  27094
+630. somewhat              26982
+631. usual                 26949
+632. wall                  26948
+633. tone                  26931
+634. circumstances         26848
+635. peace                 26737
+636. attention             26687
+637. desire                26635
+638. grace                 26585
+639. latter                26546
+640. appearance            26537
+641. afterwards            26529
+642. society               26432
+643. enemy                 26419
+644. greater               26396
+645. youth                 26395
+646. carry                 26378
+647. toward                26338
+648. plain                 26321
+649. married               26319
+650. moved                 26285
+651. fight                 26250
+652. sitting               26225
+653. bright                26218
+654. meant                 26213
+655. presence              26167
+656. sudden                26138
+657. showed                26064
+658. sit                   26059
+659. expected              25993
+660. worth                 25952
+661. months                25915
+662. dick                  25913
+663. loved                 25909
+664. faith                 25881
+665. broke                 25869
+666. placed                25863
+667. occasion              25824
+668. secret                25818
+669. altogether            25765
+670. particular            25693
+671. scene                 25681
+672. ladies                25679
+673. grew                  25660
+674. aunt                  25652
+675. stone                 25649
+676. sweet                 25622
+677. merely                25573
+678. especially            25537
+679. hall                  25503
+680. news                  25429
+681. twenty                25385
+682. goes                  25356
+683. unless                25303
+684. started               25187
+685. tree                  25097
+686. waiting               24964
+687. single                24945
+688. expression            24940
+689. school                24849
+690. danger                24788
+691. bit                   24773
+692. likely                24669
+693. beside                24639
+694. immediately           24634
+695. fancy                 24482
+696. talking               24457
+697. arrived               24452
+698. rich                  24431
+699. peter                 24418
+700. speaking              24412
+701. places                24385
+702. visit                 24356
+703. leaving               24347
+704. office                24323
+705. perfect               24247
+706. beginning             24227
+707. trust                 24219
+708. books                 24155
+709. turning               24121
+710. outside               24067
+711. board                 24033
+712. future                24028
+713. afternoon             24023
+714. village               24015
+715. observed              24001
+716. march                 23897
+717. island                23883
+718. watch                 23856
+719. conversation          23832
+720. surprise              23728
+721. worse                 23641
+722. species               23592
+723. pleasant              23522
+724. raised                23511
+725. hill                  23483
+726. brown                 23473
+727. beneath               23455
+728. giving                23447
+729. honour                23444
+730. simple                23424
+731. filled                23383
+732. generally             23347
+733. spot                  23322
+734. scarcely              23246
+735. straight              23239
+736. girls                 23178
+737. garden                23071
+738. fresh                 23004
+739. entirely              22965
+740. stop                  22944
+741. sorry                 22871
+742. third                 22832
+743. exactly               22829
+744. laugh                 22804
+745. shook                 22726
+746. shore                 22714
+747. tears                 22689
+748. north                 22688
+749. corner                22681
+750. fast                  22649
+751. perfectly             22646
+752. gentlemen             22638
+753. lie                   22631
+754. minute                22577
+755. thank                 22561
+756. cry                   22527
+757. persons               22524
+758. various               22487
+759. respect               22476
+760. lives                 22445
+761. direction             22418
+762. top                   22385
+763. looks                 22373
+764. action                22329
+765. trying                22312
+766. condition             22268
+767. shot                  22243
+768. escape                22241
+769. american              22203
+770. noble                 22202
+771. wood                  22151
+772. duke                  22149
+773. south                 22140
+774. evil                  22055
+775. declared              21993
+776. safe                  21978
+777. easily                21916
+778. quickly               21853
+779. wrote                 21768
+780. appear                21624
+781. terrible              21607
+782. private               21604
+783. learned               21595
+784. joy                   21535
+785. lines                 21490
+786. supposed              21411
+787. bound                 21399
+788. former                21388
+789. parts                 21385
+790. hat                   21378
+791. paid                  21362
+792. charge                21319
+793. jack                  21266
+794. james                 21251
+795. remain                21237
+796. sake                  21216
+797. france                21214
+798. difficulty            21204
+799. forget                21201
+800. changed               21141
+801. mrs                   21118
+802. companion             21107
+803. step                  21087
+804. simply                21078
+805. piece                 21059
+806. marry                 21046
+807. expect                21040
+808. judge                 21026
+809. running               21024
+810. influence             21021
+811. instant               20973
+812. marriage              20970
+813. experience            20907
+814. understood            20874
+815. mark                  20751
+816. wide                  20749
+817. matters               20728
+818. harry                 20728
+819. spoken                20702
+820. west                  20694
+821. battle                20653
+822. rate                  20651
+823. pleased               20609
+824. attempt               20601
+825. sky                   20600
+826. feelings              20599
+827. yours                 20593
+828. according             20591
+829. fallen                20580
+830. important             20578
+831. curious               20552
+832. break                 20534
+833. food                  20531
+834. wished                20513
+835. journey               20508
+836. christ                20504
+837. nobody                20496
+838. smiled                20455
+839. rock                  20425
+840. surely                20420
+841. glass                 20364
+842. killed                20344
+843. begin                 20298
+844. speech                20249
+845. floor                 20230
+846. difficult             20218
+847. fit                   20155
+848. touch                 20141
+849. considered            20133
+850. wonderful             20130
+851. reply                 20028
+852. leaves                19987
+853. ancient               19907
+854. breath                19888
+855. dog                   19865
+856. believed              19815
+857. walls                 19797
+858. grave                 19791
+859. flowers               19785
+860. anxious               19748
+861. difference            19747
+862. camp                  19714
+863. allowed               19666
+864. dare                  19656
+865. command               19638
+866. picture               19637
+867. regard                19636
+868. darkness              19633
+869. stranger              19609
+870. dress                 19551
+871. soft                  19541
+872. ourselves             19495
+873. eat                   19489
+874. summer                19453
+875. steps                 19452
+876. seven                 19440
+877. lying                 19440
+878. hath                  19430
+879. proper                19404
+880. passing               19391
+881. born                  19373
+882. pale                  19365
+883. language              19352
+884. ears                  19298
+885. justice               19284
+886. result                19241
+887. hot                   19229
+888. learn                 19215
+889. consider              19200
+890. bill                  19149
+891. promise               19143
+892. reach                 19143
+893. lower                 19113
+894. cast                  19064
+895. notice                19044
+896. remarked              18985
+897. passage               18969
+898. determined            18967
+899. henry                 18954
+900. castle                18923
+901. houses                18879
+902. degree                18878
+903. quietly               18874
+904. ill                   18846
+905. fixed                 18815
+906. threw                 18812
+907. move                  18810
+908. quick                 18799
+909. works                 18775
+910. middle                18775
+911. fortune               18747
+912. british               18737
+913. watched               18717
+914. spring                18680
+915. covered               18651
+916. closed                18651
+917. wise                  18649
+918. glance                18588
+919. creature              18570
+920. memory                18561
+921. repeated              18488
+922. train                 18477
+923. success               18468
+924. discovered            18464
+925. orders                18443
+926. engaged               18410
+927. forest                18357
+928. formed                18333
+929. race                  18263
+930. birds                 18241
+931. ways                  18208
+932. property              18199
+933. drawn                 18182
+934. field                 18165
+935. frank                 18155
+936. honest                18153
+937. rise                  18150
+938. modern                18145
+939. offered               18140
+940. knowing               18085
+941. vain                  18080
+942. dropped               18055
+943. writing               18036
+944. period                18024
+945. produced              17995
+946. talked                17992
+947. seat                  17979
+948. pain                  17906
+949. winter                17899
+950. serious               17875
+951. clothes               17872
+952. christian             17853
+953. drink                 17826
+954. dream                 17809
+955. eight                 17794
+956. tall                  17792
+957. opposite              17745
+958. shut                  17732
+959. start                 17727
+960. offer                 17720
+961. pride                 17699
+962. reading               17677
+963. plan                  17654
+964. rising                17654
+965. forgotten             17642
+966. prepared              17560
+967. lead                  17551
+968. gate                  17529
+969. forms                 17503
+970. heads                 17503
+971. greatest              17495
+972. opportunity           17491
+973. spent                 17490
+974. cases                 17479
+975. charles               17479
+976. shoulder              17458
+977. snow                  17449
+978. shadow                17448
+979. personal              17443
+980. game                  17402
+981. fate                  17354
+982. soldiers              17354
+983. fifty                 17333
+984. crowd                 17323
+985. indian                17297
+986. evidence              17292
+987. broad                 17291
+988. surprised             17280
+989. william               17276
+990. cousin                17259
+991. spite                 17236
+992. due                   17225
+993. officers              17218
+994. remembered            17171
+995. valley                17129
+996. bank                  17120
+997. listen                17108
+998. officer               17081
+999. otherwise             17052
+1000. mountains             17050

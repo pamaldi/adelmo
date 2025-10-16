@@ -5,11 +5,51 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+import os
+import glob
 
 # Download required NLTK data
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('gutenberg')
+
+
+def get_project_root():
+    """Get the project root directory (where data/ folder is located)."""
+    # Get the directory where this script is located
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # Go up two levels: src/tokenization -> src -> project_root
+    project_root = os.path.dirname(os.path.dirname(script_dir))
+    return project_root
+
+
+def load_config(config_file='conf.txt'):
+    """
+    Load configuration from conf.txt file.
+
+    Args:
+        config_file (str): Path to configuration file
+
+    Returns:
+        str: Corpus name to process
+    """
+    # Config file is in the same directory as this script
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    config_path = os.path.join(script_dir, config_file)
+
+    try:
+        with open(config_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line.startswith('corpus='):
+                    corpus = line.split('=', 1)[1].strip()
+                    return corpus
+    except FileNotFoundError:
+        print(f"Warning: {config_path} not found. Using default corpus 'gutenberg'")
+        return 'gutenberg'
+
+    print("Warning: No corpus specified in config file. Using default 'gutenberg'")
+    return 'gutenberg'
 
 
 def tokenize_and_count(text, top_n=300, min_word_length=2, remove_stopwords=True):
@@ -86,10 +126,8 @@ def load_shakespeare_corpus():
 
 def load_gutenberg_corpus():
     """Load all texts from the data/Gutenberg/txt folder."""
-    import os
-    import glob
-
-    gutenberg_folder = 'data/Gutenberg/txt'
+    project_root = get_project_root()
+    gutenberg_folder = os.path.join(project_root, 'data', 'Gutenberg', 'txt')
     all_text = ""
     file_count = 0
 
@@ -172,41 +210,68 @@ def plot_zipf_law(top_words, title, n_words=1000):
     plt.show()
 
 
-# Example usage: Analyze Infinite Jest
-print("Analyzing Infinite Jest...")
-infinite_jest_text = load_text_from_file('data/infinite-jest.txt')
-infinite_jest_top_words = tokenize_and_count(infinite_jest_text, top_n=1000)
-print_top_words(infinite_jest_top_words, n=50)
-plot_word_frequencies(infinite_jest_top_words[:300], 'Top 300 Most Frequent Words in Infinite Jest')
-plot_word_frequencies(infinite_jest_top_words[:50], 'Top 50 Most Frequent Words in Infinite Jest')
-plot_zipf_law(infinite_jest_top_words, 'Infinite Jest', n_words=1000)
+def process_corpus(corpus_name):
+    """
+    Process the specified corpus based on configuration.
 
-# Example usage: Analyze Shakespeare
-print("\nAnalyzing Shakespeare corpus...")
-shakespeare_text = load_shakespeare_corpus()
-shakespeare_top_words = tokenize_and_count(shakespeare_text, top_n=1000)
-print_top_words(shakespeare_top_words, n=50)
-plot_word_frequencies(shakespeare_top_words[:300], 'Top 300 Most Frequent Words in Shakespeare Corpus')
-plot_word_frequencies(shakespeare_top_words[:50], 'Top 50 Most Frequent Words in Shakespeare Corpus')
-plot_zipf_law(shakespeare_top_words, 'Shakespeare Corpus', n_words=1000)
+    Args:
+        corpus_name (str): Name of the corpus to process
+                          Options: 'manzoni', 'wallace', 'gutenberg', 'shakespeare'
+    """
+    project_root = get_project_root()
 
-# Example usage: Analyze I Promessi Sposi
-print("\nAnalyzing I Promessi Sposi...")
-promessi_sposi_text = load_text_from_file('data/promessi-sposi.txt')
-promessi_sposi_top_words = tokenize_and_count(promessi_sposi_text, top_n=1000)
-print_top_words(promessi_sposi_top_words, n=50)
-plot_word_frequencies(promessi_sposi_top_words[:300], 'Top 300 Most Frequent Words in I Promessi Sposi')
-plot_word_frequencies(promessi_sposi_top_words[:50], 'Top 50 Most Frequent Words in I Promessi Sposi')
-plot_zipf_law(promessi_sposi_top_words, 'I Promessi Sposi', n_words=1000)
+    print("="*60)
+    print(f"PROCESSING CORPUS: {corpus_name.upper()}")
+    print("="*60)
 
-# Example usage: Analyze Gutenberg Corpus
-print("\n" + "="*60)
-print("ANALYZING GUTENBERG CORPUS")
-print("="*60)
-gutenberg_text = load_gutenberg_corpus()
-print("\nTokenizing Gutenberg corpus (this may take a few minutes)...")
-gutenberg_top_words = tokenize_and_count(gutenberg_text, top_n=1000,remove_stopwords=False)
-print_top_words(gutenberg_top_words, n=1000)
-plot_word_frequencies(gutenberg_top_words[:300], 'Top 300 Most Frequent Words in Gutenberg Corpus')
-plot_word_frequencies(gutenberg_top_words[:50], 'Top 50 Most Frequent Words in Gutenberg Corpus')
-plot_zipf_law(gutenberg_top_words, 'Gutenberg Corpus', n_words=1000)
+    if corpus_name == 'manzoni':
+        # Analyze I Promessi Sposi
+        print("\nAnalyzing I Promessi Sposi by Alessandro Manzoni...")
+        filepath = os.path.join(project_root, 'data', 'promessi-sposi.txt')
+        text = load_text_from_file(filepath)
+        title = 'I Promessi Sposi'
+
+    elif corpus_name == 'wallace':
+        # Analyze Infinite Jest
+        print("\nAnalyzing Infinite Jest by David Foster Wallace...")
+        filepath = os.path.join(project_root, 'data', 'infinite-jest.txt')
+        text = load_text_from_file(filepath)
+        title = 'Infinite Jest'
+
+    elif corpus_name == 'shakespeare':
+        # Analyze Shakespeare corpus
+        print("\nAnalyzing Shakespeare corpus...")
+        text = load_shakespeare_corpus()
+        title = 'Shakespeare Corpus'
+
+    elif corpus_name == 'gutenberg':
+        # Analyze Gutenberg corpus
+        print("\nAnalyzing Gutenberg corpus...")
+        text = load_gutenberg_corpus()
+        title = 'Gutenberg Corpus'
+        print("\nTokenizing Gutenberg corpus (this may take a few minutes)...")
+
+    else:
+        print(f"Error: Unknown corpus '{corpus_name}'")
+        print("Valid options: 'manzoni', 'wallace', 'shakespeare', 'gutenberg'")
+        return
+
+    # Analyze the corpus
+    top_words = tokenize_and_count(text, top_n=1000, remove_stopwords=False)
+    print_top_words(top_words, n=1000)
+
+    # Generate visualizations
+    plot_word_frequencies(top_words[:300], f'Top 300 Most Frequent Words in {title}')
+    plot_word_frequencies(top_words[:50], f'Top 50 Most Frequent Words in {title}')
+    plot_zipf_law(top_words, title, n_words=1000)
+
+    print(f"\nAnalysis of {title} completed!")
+
+
+if __name__ == "__main__":
+    # Load configuration
+    corpus = load_config('conf.txt')
+    print(f"Configuration loaded: corpus={corpus}\n")
+
+    # Process the specified corpus
+    process_corpus(corpus)

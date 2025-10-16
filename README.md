@@ -28,9 +28,9 @@ adelmo/
 
 ## Scripts
 
-### `src/tokenization/01-simpleTokenization.py`
+### `src/tokenization/zipfs-law.py`
 
-A comprehensive script for text tokenization and frequency analysis with visualization capabilities.
+A comprehensive script for text tokenization and frequency analysis with visualization capabilities, demonstrating Zipf's Law in natural language.
 
 **Features:**
 - **Text Tokenization**: Uses NLTK's word tokenizer to break text into individual tokens
@@ -38,17 +38,27 @@ A comprehensive script for text tokenization and frequency analysis with visuali
 - **Stopword Removal**: Filters common English stopwords for more meaningful analysis
 - **Visualization**: Creates bar charts showing the most frequent words
 - **Zipf's Law Analysis**: Plots log-log graphs to demonstrate Zipf's law in natural language
+- **Configurable Corpus Selection**: Select which corpus to analyze via `conf.txt` configuration file
 - **Multiple Corpus Support**: Analyzes various texts including:
-  - Infinite Jest
+  - Gutenberg corpus (hundreds of texts)
+  - I Promessi Sposi by Alessandro Manzoni
+  - Infinite Jest by David Foster Wallace
   - Shakespeare corpus (from NLTK's Gutenberg collection)
-  - I Promessi Sposi
-  - Custom Gutenberg corpus from local files
+
+**Configuration:**
+Edit `src/tokenization/conf.txt` to select which corpus to process:
+```
+corpus=gutenberg
+```
 
 **Key Functions:**
 - `tokenize_and_count()`: Tokenizes text and counts word frequencies
 - `plot_word_frequencies()`: Visualizes word frequency distributions
 - `plot_zipf_law()`: Demonstrates Zipf's law with fitted curves
 - `load_gutenberg_corpus()`: Loads multiple text files from local directory
+- `process_corpus()`: Processes the selected corpus based on configuration
+
+**For detailed analysis results and methodology**, see [src/tokenization/zipfs-law.MD](src/tokenization/zipfs-law.MD)
 
 ### `src/ngrams/02-ngrams.py`
 
@@ -115,10 +125,11 @@ conda env export --no-builds > environment.yml
 The project includes the following main dependencies:
 
 - **Python 3.12**: Core programming language
-- **NLTK**: Natural Language Toolkit for text processing
+- **NLTK 3.9.1**: Natural Language Toolkit for text processing
 - **NumPy 2.2.2**: Numerical computing
 - **Pandas 2.2.3**: Data manipulation and analysis
 - **Matplotlib 3.10.0**: Data visualization
+- **Seaborn 0.13.2**: Statistical data visualization
 - **Plotly 6.0.0**: Interactive visualizations
 - **Jupyter Notebook 7.3.2**: Interactive development environment
 
@@ -133,7 +144,7 @@ The project includes the following main dependencies:
 3. Ensure you have the required data files in the `data/` directory
 4. Run the scripts:
    ```bash
-   python src/tokenization/01-simpleTokenization.py
+   python src/tokenization/zipfs-law.py
    python src/ngrams/02-ngrams.py
    ```
 
